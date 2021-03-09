@@ -43,6 +43,7 @@
                 String s1,s2;
 		s1=Double.toString(LengthofLine);
 		s2=Double.toString(LengthofLine2);
-	        System.out.println("Equality of two length is: " + s1.equals(s2));	
+	        System.out.println("Equality of two length is: " + s1.equals(s2));
+                System.out.println("Compare of two length is: " + s1.compareTo(s2));	
       }
  }
